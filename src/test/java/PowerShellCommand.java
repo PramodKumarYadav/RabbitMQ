@@ -15,7 +15,8 @@ public class PowerShellCommand {
 
         //Getting the version
 //        String command = "powershell.exe $PSVersionTable.PSVersion";
-        String command = "powershell.exe -ExecutionPolicy ByPass -File \"D:\\first_script.ps1\" ";
+//        String command = "powershell.exe -ExecutionPolicy ByPass -File \"D:\\first_script.ps1\"  ";
+        String command = "powershell.exe -ExecutionPolicy ByPass -File \"D:\\TriggerPowreShellAsAdministrator.ps1\"  ";
         // Executing the command
         Process powerShellProcess = Runtime.getRuntime().exec(command);
         // Getting the results
